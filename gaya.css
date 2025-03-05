@@ -1,0 +1,80 @@
+/* Nama : Fairuzia Meyla Fatinah | Nim : 102022300147 | Kelas : SI4708 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7));
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+img {
+    width: 180px; 
+    height: auto; 
+    display: block; 
+    margin: 20px auto; 
+    border-radius: 50%; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.text-box {
+    width: 90%;
+    color: #ECDCBF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box h1 {
+    font-size: 62px;
+    margin-bottom: 20px;
+}
+.text-box p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #ECDCBF;
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #ECDCBF;
+    border: 1px solid #ECDCBF;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero-btn:hover {
+    background: #ECDCBF;
+    color: #000;
+}
+
+.hero-btn:last-child {
+    display: block;
+    width: fit-content;
+    margin: 50px auto 0;
+    background: #b23747;
+    text-align: center;
+    position: relative;
+    transform: none;
+}
+
+.hero-btn:last-child:hover {
+    background: #8f2d3b;
+}
